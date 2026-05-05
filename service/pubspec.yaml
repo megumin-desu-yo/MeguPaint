@@ -1,0 +1,14 @@
+name: megu_paint_service
+description: TCP 后端服务 - 用于登录和身份验证
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  crypto: ^3.0.3
+  watcher: ^1.1.0
+  path: ^1.8.3
+
+dev_dependencies:
+  lints: ^3.0.0

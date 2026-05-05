@@ -1,0 +1,20 @@
+{
+  "_comments": {
+    "serverName": "服务端名称（用于客户端/管理后台展示）",
+    "port": "TCP 端口（客户端连接端口）",
+    "maxConnections": "最大连接数（超过将拒绝新连接）",
+    "maxRooms": "最大房间数",
+    "idleSweepIntervalSeconds": "空闲连接扫描间隔（秒）",
+    "handshakeTimeoutSeconds": "未登录连接握手超时（秒），超时将断开（HANDSHAKE_TIMEOUT）",
+    "authenticatedIdleTimeoutSeconds": "已登录连接空闲超时（秒，优先于分钟字段）。建议为心跳间隔的 3~5 倍（例如心跳20秒→80~120秒）。设为0表示不启用此字段",
+    "authenticatedIdleTimeoutMinutes": "已登录连接空闲超时（分钟），超时将断开（IDLE_TIMEOUT）"
+  },
+  "serverName": "MeguPaint official Server官方",
+  "port": 9527,
+  "maxConnections": 1000,
+  "maxRooms": 20,
+  "idleSweepIntervalSeconds": 5,
+  "handshakeTimeoutSeconds": 30,
+  "authenticatedIdleTimeoutSeconds": 100,
+  "authenticatedIdleTimeoutMinutes": 90
+}
